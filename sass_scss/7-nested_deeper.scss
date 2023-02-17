@@ -1,0 +1,11 @@
+/*Double nested font size selection*/
+body {
+  font-size: 14px;
+  h1 {
+    font-size: 16px;
+
+    &.small {
+      font-size: 12px;
+    }
+  }
+}
