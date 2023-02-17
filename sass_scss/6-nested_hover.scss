@@ -1,7 +1,8 @@
 /* Button color change during hovering*/
 button {
   color: #ff0000;
-}
-button:hover {
-  color: #0ff000;
+
+  &:hover {
+    color: #0ff000;
+  }
 }
