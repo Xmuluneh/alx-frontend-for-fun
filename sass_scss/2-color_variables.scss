@@ -1,13 +1,16 @@
 /*Text color and background color selection*/
-$text-color: #3d3d3d;
-$bac-color: #6d6d6d;
+$txtcolor: #3d3d3d;
+$bgcolor: #6d6d6d;
+
 body {
-  color: $text-color;
-  background-color: $bac-color;
+  color: $txtcolor;
+  background-color: $bgcolor;
 }
+
 p {
-  color: $text-color;
+  color: $txtcolor;
 }
-h1 {
-  background-color: $bac-color;
+
+h2 {
+  background-color: $bgcolor;
 }
